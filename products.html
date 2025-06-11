@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WIS Project - Products</title>
+    <link rel="stylesheet" href="products.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- BEGIN CODE HERE -->
+    <!-- Header section start -->
+    <header class="container">
+      <div class="row row-cols-4 header-row">
+        <div class="col-4">
+          <img id="logo" class="img-fluid" src="logo.png" alt="Responsive image">
+        </div>
+        <div class="col-6">
+          
+        </div>
+        <div class="col-2">
+          <div class="ml-auto d-flex align-items-center justify-content-end">
+            <a href="homepage.html" class="btn btn-light align-self-center mr-5">Home</a>
+            <a href="products.html" class="btn btn-primary align-self-center">Products</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header section end -->
+    
+    <!-- Main products page section start -->
+
+    <section class="container cont">
+      <div class="row">
+        <div class="col">
+          <div class="search-bar">
+            <form class="col-sm-4 search_form" action="">
+              <label for="search">Search a product:</label>
+              <input type="text" id="search" name="search">
+            </form>
+            <button id="searchButton">Search</button>
+          </div>
+          <div>
+            <h2>Results:</h2>
+            <table class="search-results">
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Production year</th>
+                <th>Price</th>
+                <th>Color</th>
+                <th>Size</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container cont">
+      <div class="row">
+          <div class="col">
+            <h2>Add a product</h2>
+            <form>
+              <div class="row mb-3">
+                  <label for="name" class="col-sm-2 col-form-label">Name</label>
+                  <div class="col-sm-4">
+                    <input type="text" id="name" class="form-control" aria-describedby="">
+                  </div>
+              </div>
+              <div class="row mb-3">
+                  <label for="production_year" class="col-sm-2 col-form-label">Production year</label>
+                  <div class="col-sm-4">
+                    <input type="text" id="production_year" class="form-control" aria-describedby="">
+                  </div>
+              </div>
+              <div class="row mb-3">
+                <label for="price" class="col-sm-2 col-form-label">Price</label>
+                <div class="col-sm-4">
+                  <input type="text" id="price" class="form-control" aria-describedby="">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="color" class="col-sm-2 col-form-label">Color</label>
+                <div class="col-sm-4">
+                  <input type="text" id="color" class="form-control" aria-describedby="">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="size" class="col-sm-2 col-form-label">Size</label>
+                <div class="col-sm-4">
+                  <input type="text" id="size" class="form-control" aria-describedby="">
+                </div>
+              </div>
+            </form>
+            <div class="d-flex justify-content-end">
+                <button id="submit" type="submit" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Main products page section end -->
+
+    <!-- Footer section start -->
+    <footer class="container d-flex justify-content-between">
+      <div>Lazaros Gogos - AEM 3877</div>
+      <div>Christodoulos Zarogiannis - AEM 3868</div>
+      <div>Stavros Nikolaidis - AEM 3975</div>
+      <div>Vasileios Pavlidis - AEM 3988</div>
+    </footer>
+    <!-- Footer section end -->
+    <!-- END CODE HERE -->
+    <script src="products.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

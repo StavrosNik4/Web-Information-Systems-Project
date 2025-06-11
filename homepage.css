@@ -1,0 +1,60 @@
+/* BEGIN CODE HERE */
+
+.header-row {
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 250px;
+    height: 58px;
+    margin: auto;
+    
+}
+
+.column1-header{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+section{
+    margin: 20px;
+}
+
+.cont{
+    width: 1200px !important;
+    height: 400px;
+}
+
+#iframe{
+    height: 600px;
+    width: 1200px;
+}
+
+#image1{
+    height: 400px;
+    width: 600px;
+    padding-left: 12px;
+}
+
+.img23{
+    height: 200px !important;
+    width: 300px;
+}
+
+footer{
+    height:100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-padding{
+    padding:0 !important;
+}
+
+.ksekola{
+    margin-left: 10px;
+}
+/* END CODE HERE */

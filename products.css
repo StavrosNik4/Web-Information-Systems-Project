@@ -1,0 +1,65 @@
+/* BEGIN CODE HERE */
+
+/* Begin Header Code */
+.header-row {
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    width: 250px;
+    height: 58px;
+    margin: auto;
+    
+}
+
+.column1-header{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+/*End Header Code*/
+
+
+/* Begin Section Code */
+section{
+    margin: 20px;
+}
+
+.cont{
+    width: 1200px;
+}
+
+.search-results{
+    border: 1px gray solid;
+    width: 100%;
+
+}
+
+.search-results th{
+    border: 1px gray solid;
+    padding: 10px;
+}
+.search-results td{
+    border: 1px gray solid;
+    padding: 10px;
+}
+
+.search_form{
+    display: inline;
+}
+
+
+/* End Section Code */
+
+
+/* Begin Footer Code */
+footer {
+    height:100px;
+    justify-content: center;
+    align-items: center;
+}
+/* End Footer Code */
+
+/* END CODE HERE */
